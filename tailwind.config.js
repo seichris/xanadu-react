@@ -227,6 +227,8 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Ubuntu',
+        'Lato',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -242,7 +244,9 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      mono: ['"Ubuntu Mono"', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      body: ['Lato'],
+      heading: ['Ubuntu'],
     },
     fontSize: {
       xs: '0.75rem',
